@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task4</title>
+    <style>
+        .all{
+            background-color: rgb(160,208,234);
+            width: 25vw;
+            height: 70vh;
+            border-radius: 10px;
+            position: absolute;
+            right: 37vw;
+            top: 10vh;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows:auto auto auto auto auto;
+        }
+        .all >div{
+            background-color: rgb(239,239,239);
+            margin: 13px;
+            box-shadow: 0 4px  0 rgb(128,166,187);
+            text-align: center;
+            font-size: 25px;
+            padding-top: 25px;
+        }
+        #a1{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-color: rgb(241,251,235);
+        }
+        #a5,
+        #a9,
+        #a13,
+        #a17{
+            background-color: rgb(239,255,147);
+        }
+        #a14{
+            background-color: rgb(253,159,169);
+        }
+
+    </style>
+</head>
+<body style="background-color: rgb(168,191,126); position: relative;">
+    <div class="all">
+        <div id="a1"></div>
+        <div id="a2">1</div>
+        <div id="a3">2</div>
+        <div id="a4">3</div>
+        <div id="a5">+</div>
+        <div id="a6">4</div>
+        <div id="a7">5</div>
+        <div id="a8">6</div>
+        <div id="a9">-</div>
+        <div id="a10">7</div>
+        <div id="a11">8</div>
+        <div id="a12">9</div>
+        <div id="a13">*</div>
+        <div id="a14">c</div>
+        <div id="a15">0</div>
+        <div id="a16">=</div>
+        <div id="a17">/</div>
+    </div>
+</body>
+</html>

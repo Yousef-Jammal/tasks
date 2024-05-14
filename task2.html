@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <style>
+        .all{
+            display: grid;
+            grid-template-rows: 20% 50% 30%;
+            grid-template-columns: 70% 30%;
+            row-gap:1vh;
+            column-gap: 1vh;
+            width: 99vw;
+            height: 70vh;
+        }
+        #a{
+            background-color: black;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        #b{
+            background-color: orange;
+        }
+        #c{
+            background-color: green;
+        }
+        #d{
+            background-color: blue;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div id="a"></div>
+        <div id="b"></div>
+        <div id="c"></div>
+        <div id="d"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <style>
+        .all{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+        .all div{
+            background-color: yellow;
+            text-align: center;
+            height: 10vh;
+            margin: 2px;
+        }
+        #a{
+            grid-row-start: 2;
+            grid-column-start: 4;
+
+
+        }
+        #c{
+            grid-row-start: 1;
+            grid-column-start: 1;
+            /* grid-column-end: 2; */
+            /* grid-row-end: 2; */
+        }
+        #e{
+            grid-row-start: 2;
+            grid-column-start: 3;
+        }
+        #f{
+            grid-row-start: 1;
+            grid-column-start: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div id="a">1</div>
+        <div id="b">2</div>
+        <div id="c">3</div>
+        <div id="d">4</div>
+        <div id="e">5</div>
+        <div id="f">6</div>
+        <div id="j">7</div>
+        <div id="x">8</div>
+    </div>
+</body>
+</html>
